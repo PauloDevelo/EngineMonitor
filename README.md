@@ -13,9 +13,13 @@ After almost 2 years I'm using this system on board, this is what it improved on
 Edit from the 09/11/2019
 It is still working reliably. I think, since the last edit the 28/03/2016, I added a temperature sensor in the cooling system: So now 2 temperature sensor, one on the engine coolant, and another one on the exhaust.
 The Arduino sketch has 3 dependencies, Those 3 libraries needs to bbe installed from the libraries manager of the Arduino IDE before building the Arduino sketch:
+
 -EEPROMEx (https://playground.arduino.cc/Code/EEPROMex/)
+
 -LiquidCrystal I2C from Frank de Brabander(https://github.com/johnrickman/LiquidCrystal_I2C)
+
 -Virtuino 1.8.0 by Ilias Lamprou (https://github.com/iliaslamprou/virtuino)
+
 
 Also, I re-implemented the software that manages the engine maintenance. It is now a web application (progressive). It means you can input all your maintenance engine tasks into this web application, and record all your maintenance in it. Because it is a web application progressive, you need internet the first time you visit the application, but for the next time, the application can work offline (it happens that cruisers do the engine maintenance in heaven places where there is no internet ...).
 
